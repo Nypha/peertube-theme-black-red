@@ -4,7 +4,7 @@ body {
     --mainColorLightest: #ff6956;
     --mainHoverColor: #fd5f5f;
     --mainBackgroundColor: #ffffff;
-    --mainForegroundColor: #1b2733;
+    --mainForegroundColor: #000000;
     --submenuColor: #ffffff;
     --inputColor: #ffffff;
     --inputPlaceholderColor: #1b2733;
@@ -31,6 +31,24 @@ body {
   #custom-css .dropdown-menu a{
     color: var(--menuForegroundColor) !important;
   }
+
+  #custom-css menu {
+    color: var(--mainColor) !important;
+  }
+
+  span.icon.icon-menu{
+    background-color: var(--mainColor) !important;
+  }
+  .top-left-block {
+    background-color: black;
+    color: var(--mainColor);
+  }
+
+  #custom-css span.icon.icon-menu{
+    background-color: var(--mainColor) !important;
+    }
+
+
   #custom-css .dropdown-item:focus:not(.new-playlist-block), 
   #custom-css .dropdown-item:hover:not(.new-playlist-block),
   #custom-css .videos-header a button{
@@ -41,6 +59,7 @@ body {
   #custom-css .dropdown-item:hover:not(.new-playlist-block),
   #custom-css .dropdown-item:active:not(.new-playlist-block),
   #custom-css span.dropdown-item.custom-action:hover,
+
   #custom-css a.dropdown-item.with-icon:hover{
     color: var(--whiteColor) !important; 
     background-color: var(--mainColor) !important;

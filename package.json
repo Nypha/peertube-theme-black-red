@@ -1,6 +1,8 @@
 {
   "name": "peertube-theme-black-red",
-  "version": "0.0.2",
+  "version": "1.0.0",
+  "private": true,
+  "license": "no",
   "description": "Mostly black and red PeerTube-theme",
   "engine": {
     "peertube": "2.4.0"
@@ -11,7 +13,7 @@
   ],
   "homepage": "https://github.com/Nypha/peertube-theme-black-red.git",
   "author": "Nypha",
-  "bugs": "-",
+  "bugs": "",
   "staticDirs": {
     "images": "public/images"
   },
