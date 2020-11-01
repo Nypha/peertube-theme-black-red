@@ -1,31 +1,24 @@
 {
   "name": "peertube-theme-black-red",
-  "version": "1.0.0",
-  "private": true,
-  "license": "no",
+  "version": "1.0.2",
+  "license": "AGPL 3.0",
   "description": "Mostly black and red PeerTube-theme",
   "engine": {
-    "peertube": "2.4.0"
+    "peertube": ">=2.4.0"
   },
   "keywords": [
     "peertube",
-    "theme"
+    "theme",
+    "black",
+    "red"
   ],
   "homepage": "https://github.com/Nypha/peertube-theme-black-red.git",
-  "author": "Nypha",
-  "bugs": "",
-  "staticDirs": {
-    "images": "public/images"
-  },
+  "author": "nypha",
+  "bugs": "https://github.com/Nypha/peertube-theme-black-red/issues",
+  "staticDirs": {},
   "css": [
     "assets/style.css"
   ],
-  "clientScripts": [
-    {
-      "script": "client/common-client-plugin.js",
-      "scopes": [ "common" ]
-    }
-  ],
-  "translations": {
-  }
+  "clientScripts": [],
+  "translations": {}
 }

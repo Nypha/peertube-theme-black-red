@@ -25,12 +25,21 @@ body {
   }
   /* Dropdowns & inputs */
   #custom-css .dropdown-menu{
-    background-color: var(--menuBackgroundColor);
-    color: var(--menuForegroundColor);
+    background-color: var(--menuBackgroundColor) !important;
+    color: var(--menuForegroundColor) !important;
   }
+
   #custom-css .dropdown-menu a{
     color: var(--menuForegroundColor) !important;
   }
+
+  #custom-css .text-muted {
+    color: #c2c6ca!important;
+}
+
+#custom-css .video-actions {
+ color: black !important;
+}
 
   #custom-css menu {
     color: var(--mainColor) !important;
@@ -95,9 +104,21 @@ body {
   #custom-css .sub-header-container my-menu .menu-wrapper{
     margin-top: 2px;
   }
-  #custom-css .dropdown-item:hover .ml-auto:not(.glyphicon){
-    box-shadow: 0 0 0 0.1em var(--menuForegroundColor) !important;
+
+  #custom-css > div.dropdown > div > a:nth-child(6) > my-global-icon > svg {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
   }
+
+  #custom-css > div.dropdown > div > a:nth-child(12) > i {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+
+  #content .dropdown-menu .dropdown-item  {
+    color: var(--menuForegroundColor) !important;
+  }
+
   /* Icons && Icon hovers */
   #custom-css  a my-global-icon svg circle[stroke="#000000"],
   #custom-css  a my-global-icon svg g[stroke="#000000"],
